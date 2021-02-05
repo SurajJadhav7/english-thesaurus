@@ -7,3 +7,5 @@ Features-
 Search for word meaning
 
 Suggestions if minor spelling mistake
+
+To run-  python3 app.py
