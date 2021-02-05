@@ -16,8 +16,8 @@ def search_in_data(w):
 				yesno = input("Word not found. Do you mean '" + k + "'?" +
 				"\n Please Enter y/n: ")
 				if yesno.lower() == 'y' :
-					for i in data[k]:
-						print("Meaning: "+i)
+					for i in range(len(data[k])):
+						print("Meaning "+str(i+1)+": "+data[k][i])
 				elif yesno.lower() == 'n' :
 					print("The given word '" + w + "' does not exist. Please check again.")
 				else:
